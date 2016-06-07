@@ -196,7 +196,7 @@
   </div>
 
   <!-- required -->
-  <div class="row"  ng-if="['email', 'text', 'int', 'bool', 'textarea'].indexOf(field.type) !== -1">
+  <div class="row"  ng-if="['email', 'text', 'int', 'bool', 'textarea', 'dni'].indexOf(field.type) !== -1">
     <div class="form-group">
       <label
         class="control-label col-sm-4 text-right">
@@ -312,6 +312,7 @@
       <div avr-password-field ng-switch-when="password"></div>
       <div avr-code-field ng-switch-when="code"></div>
       <div avr-text-field ng-switch-when="text"></div>
+      <div avr-dni-field ng-switch-when="dni"></div>
       <div avr-text-field ng-switch-when="tlf"></div>
       <div avr-int-field ng-switch-when="int"></div>
       <div avr-bool-field ng-switch-when="bool"></div>
