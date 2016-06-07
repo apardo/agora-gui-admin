@@ -219,7 +219,7 @@
   </div>
 
   <!-- unique -->
-  <div class="row"  ng-if="['email', 'text', 'int', 'bool', 'textarea'].indexOf(field.type) !== -1">
+  <div class="row"  ng-if="['email', 'text', 'int', 'bool', 'textarea', 'dni'].indexOf(field.type) !== -1">
     <div class="form-group">
       <label
         class="control-label col-sm-4 text-right">
@@ -240,7 +240,7 @@
   </div>
 
   <!-- private -->
-  <div class="row"  ng-if="['email', 'text', 'int', 'bool', 'textarea'].indexOf(field.type) !== -1">
+  <div class="row"  ng-if="['email', 'text', 'int', 'bool', 'textarea', 'dni'].indexOf(field.type) !== -1">
     <div class="form-group">
       <label
         class="control-label col-sm-4 text-right">
@@ -261,7 +261,7 @@
   </div>
 
   <!-- required on authentication -->
-  <div class="row"  ng-if="['email', 'text', 'int', 'bool', 'textarea', 'captcha'].indexOf(field.type) !== -1">
+  <div class="row"  ng-if="['email', 'text', 'int', 'bool', 'textarea', 'captcha', 'dni'].indexOf(field.type) !== -1">
     <div class="form-group">
       <label
         class="control-label col-sm-4 text-right">
