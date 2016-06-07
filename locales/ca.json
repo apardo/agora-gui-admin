@@ -218,6 +218,7 @@
         "boolOption": "bool",
         "captchaOption": "captcha",
         "textareaOption": "textarea",
+        "dniOption": "dni",
         "configurationHeader": "Configuration",
         "fieldTypeLabel": "Type",
         "fieldMinLabel": "Min",

@@ -310,6 +310,7 @@
         "fieldRegExPlaceholder": "Sólo usuarios avanzados - Ejemplo: ^(1000|1010)$",
         "captchaOption": "captcha",
         "textareaOption": "cuadro de texto",
+        "dniOption": "dni",
         "dictOption": "Clave-valor",
         "configurationHeader": "Configuración",
         "fieldTypeLabel": "Tipo",
