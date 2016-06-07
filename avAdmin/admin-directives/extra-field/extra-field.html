@@ -39,7 +39,9 @@
   </div>
 
   <!-- help text -->
-  <div class="row">
+  <div
+    class="row"
+    ng-if="['dni'].indexOf(field.type) !== -1">
     <div class="form-group">
       <label
         for="fieldHelpInput{{$index}}"
