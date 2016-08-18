@@ -212,7 +212,6 @@ module.exports = function (grunt) {
         options: {
           remove: ['script[data-remove!="false"]','link[data-remove!="false"]'],
           append: [
-            {selector:'body',html:'<%= variables.admin_html_body_include %>'},
             {selector:'body',html:'<!--[if lte IE 8]><script src="/admin/libcompat-v3.0.1.min.js"></script><![endif]--><!--[if gte IE 9]><script src="/admin/libnocompat-v3.0.1.min.js"></script><![endif]--><!--[if !IE]><!--><script src="/admin/libnocompat-v3.0.1.min.js"></script><!--<![endif]-->'},
             {selector:'body',html:'<!--All the source code of this program under copyright. Take a look at the license details at https://github.com/agoravoting/agora-core-view/blob/master/README.md -->'},
             {selector:'body',html:'<script src="/admin/lib-v3.0.1.min.js"></script>'},
@@ -220,6 +219,7 @@ module.exports = function (grunt) {
             {selector:'body',html:'<script src="/admin/avThemes-v3.0.1.js"></script>'},
             {selector:'body',html:'<script src="/admin/app-v3.0.1.min.js"></script>'},
             {selector:'body',html:'<script src="/admin/avPlugins-v3.0.1.js"></script>'},
+            {selector:'body',html:'<%= variables.admin_html_body_include %>'},
             {selector:'head',html:'<link rel="stylesheet" id="theme" data-base="/admin/" href="/admin/themes/default/app.min.css">'},
             {selector:'head',html:'<link rel="stylesheet" id="plugins" data-base="/admin/" href="/admin/plugins.css">'}
           ]
