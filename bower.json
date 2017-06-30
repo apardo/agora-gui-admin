@@ -1,6 +1,6 @@
 {
   "name": "agoraGuiAdmin",
-  "version" : "103.111.1",
+  "version" : "103111.1",
   "main": "index.html",
   "ignore": [
     "**/.*",
@@ -8,7 +8,7 @@
     "bower_components"
   ],
   "dependencies": {
-    "avCommon": "https://github.com/agoravoting/agora-gui-common.git#next",
+    "avCommon": "https://github.com/agoravoting/agora-gui-common.git#103.111.1",
     "angular-local-storage": "~0.2.3"
   }
 }
